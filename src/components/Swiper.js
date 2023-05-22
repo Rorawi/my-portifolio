@@ -3,6 +3,7 @@ import cert1 from "../components/images/cert1.jpg"
 import cert2 from "../components/images/cert2.png"
 import cert3 from "../components/images/cert3.png"
 import cert4 from "../components/images/cert4.jpg"
+import { SiJavascript } from "react-icons/si"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -119,7 +120,67 @@ export const AwardSwiperComp = () => {
         className="h-[45vh]"
       >
         <SwiperSlide className="bg-[#DFDFDF] w-[282px] overflow-hidden">
-        <img src={cert4} alt="" />
+        {/* <img src={cert4} alt="" /> */}
+        {/* <IoLogoJavascript/> */}
+        </SwiperSlide>
+        <SwiperSlide className="bg-[#DFDFDF] w-[282px] h-[398px] overflow-hidden">
+          <img src={cert1} alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="bg-[#DFDFDF] w-[282px] h-[398px] overflow-hidden">
+        <img src={cert2} alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="bg-[#DFDFDF] w-[282px] h-[398px] overflow-hidden">
+        <img src={cert3} alt="" />
+        </SwiperSlide>
+        {/* edit swiper */}
+        {/* Pagination */}
+        <div className="flex justify-center mt-4">
+          <span className="swiper-pagination-bullet w-[7px] h-[7px] bg-gray-700 rounded-full mx-1 cursor-pointer"></span>
+          <span className="swiper-pagination-bullet w-[7px] h-[7px] bg-gray-700 rounded-full mx-1 cursor-pointer"></span>
+          <span className="swiper-pagination-bullet w-[7px] h-[7px] bg-gray-700 rounded-full mx-1 cursor-pointer"></span>
+        </div>
+      </Swiper>
+    </div>
+  );
+};
+
+
+//AWARDS SLIDER...
+export const LogoSwiperComp = () => {
+  const responsiveOptions = {
+    320: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  };
+  return (
+    <div className="overflow-hidden mt-[60px]">
+      <h4 className="overflow-hidden font-poppins my-[20px] text-center text-[18px] text-[#797979]">
+        Awards & Recognitions
+      </h4>
+      <Swiper
+        // install Swiper modules
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        spaceBetween={20}
+        slidesPerView={3}
+        loop={true}
+        // navigation
+        breakpoints={responsiveOptions}
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true, hide: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        effect="fade"
+        onSlideChange={() => console.log("slide change")}
+        className="h-[45vh]"
+      >
+        <SwiperSlide className="bg-[#DFDFDF] w-[282px] overflow-hidden">
+        {/* <img src={cert4} alt="" /> */}
+        <SiJavascript/>
         </SwiperSlide>
         <SwiperSlide className="bg-[#DFDFDF] w-[282px] h-[398px] overflow-hidden">
           <img src={cert1} alt="" />

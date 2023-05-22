@@ -5,7 +5,7 @@ import { FiMenu } from "react-icons/fi"
 import "./myStyle.css"
 
 const Navbar = () => {
-  const [isTrue,setIsTrue] = useState(false)
+  const [isTrue,setIsTrue] = useState(true)
 
 const setToggle =()=> {
   setIsTrue(!isTrue)
@@ -37,7 +37,7 @@ const setToggle =()=> {
       </div>
      )}
 
-      <div className="md:flex-row flex justify-evenly items-center flex-col md:bg-transparent bg-white py-[35px] pl-[10px] h-[40vh] bottom-[200px] md:bottom-0 rounded-xl -left-[8px] z-10 fixed md:static shadow-md">
+      <div className="md:flex-row flex justify-evenly items-center flex-col md:bg-transparent bg-white py-[35px] pl-[10px] h-[40vh] md:h-0 bottom-[200px] md:bottom-0 rounded-xl -left-[14px] z-10 fixed md:static md:shadow-none shadow-md">
         <FaInstagram className="mx-2.5 text-[17px] md:mb-0 mb-[6px] md:text-white"/>
         <FaLinkedin className="mx-2.5 text-[17px] md:mb-0 mb-[6px]  md:text-white"/>
         <FaGithub className="mx-2.5 text-[17px] md:mb-0 mb-[6px]  md:text-white"/>

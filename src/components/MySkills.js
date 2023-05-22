@@ -13,10 +13,12 @@ const MySkills = () => {
       </h2>
 
       <div className="md:flex md:justify-evenly justify-center md:items-start items-center my-[70px] mx-[20px]">
-        <div className="">
-          <img src={logo} alt="" />
-          <h3 className="text-[24px] font-bold font-poppins">What I can do for you</h3>
-          <p className="text-[18px] text-[#797979] font-poppins font-normal w-[357px] my-[12px]">
+        <div className=" mb-[80px]">
+         <div className="flex justify-center">
+           <img src={logo} alt="" />
+         </div>
+                   <h3 className="text-[24px] md:text-center font-bold font-poppins">What I can do for you</h3>
+          <p className="text-[18px] md:text-center text-[#797979] font-poppins font-normal w-[357px] my-[12px]">
             Faster, better products that your users love. Here's all the
             services I provide:
           </p>
@@ -26,10 +28,13 @@ const MySkills = () => {
           
         </div>
 
-        <div className="">
-          <img src={logo2} alt="" />
-          <h3 className="text-[24px] font-bold font-poppins">What I work with</h3>
-          <p className="text-[18px] text-[#797979] font-poppins font-normal w-[357px] my-[12px]">
+        <div className=" mb-[80px]">
+         <div className="flex justify-center">
+           <img src={logo2} alt="" />
+         </div>
+
+          <h3 className="text-[24px] md:text-center font-bold font-poppins">What I work with</h3>
+          <p className="text-[18px] md:text-center text-[#797979] font-poppins font-normal w-[357px] my-[12px]">
             Faster, better products that your users love. Here's all the
             tools I use:
           </p>
@@ -41,10 +46,13 @@ const MySkills = () => {
           
         </div>
 
-        <div className="">
-          <img src={logo3} alt="" />
-          <h3 className="text-[24px] font-bold font-poppins">What you can expect</h3>
-          <p className="text-[18px] text-[#797979] font-poppins font-normal w-[357px] my-[12px]">
+        <div className=" mb-[80px]">
+         <div className="flex justify-center">
+           <img src={logo3} alt="" />
+         </div>
+
+          <h3 className="text-[24px] md:text-center font-bold font-poppins">What you can expect</h3>
+          <p className="text-[18px] md:text-center text-[#797979] font-poppins font-normal w-[357px] my-[12px]">
            Developing websites and apps with good user interfaces and fast optimization.
           </p>
           

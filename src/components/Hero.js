@@ -4,13 +4,15 @@ import MySkills from "./MySkills";
 import profile from "../components/images/profile.jpg";
 import "./myStyle.css";
 import { FaArrowRight } from "react-icons/fa";
+import {DiJavascript1,DiHtml5,DiCss3,DiReact} from "react-icons/di"
+import { SiTailwindcss } from "react-icons/si"
 const Hero = () => {
   return (
     <div className="bg-[#181818] ">
       <Navbar />
       <div className="py-16 px-10 md:px-20 md:flex md:justify-around md:items-start">
         <div>
-          <p className="text-[40px] md:text-7xl font-poppins font-bold text-white md:max-w-2xl max-w-[300px] text-center md:text-left">
+          <p className="text-[40px] md:text-7xl font-poppins font-bold text-white md:max-w-2xl text-center md:text-left">
             I'm Winifred
             <span className="text-gradient">
               <br />A Frontend Developer
@@ -23,13 +25,23 @@ const Hero = () => {
             problems.
           </p>
 
-          <div className="relative flex md:justify-center items-center">
-            <div className="h-[28px] w-[87px] md:h-[56px] md:w-[174px] bg-gradient-to-bl from-[#AA00FF] to-[#0DCCF2] "></div>
+          <div className="flex justify-between max-w-[400px]">
+            {/* <div className="h-[28px] w-[87px] md:h-[56px] md:w-[174px] bg-gradient-to-bl from-[#AA00FF] to-[#0DCCF2] "></div>
             <button className="text-[12px] md:text-[18px] font-poppins h-[28px] w-[87px] md:h-[56px] md:w-[174px] bg-white absolute md:-top-1.5 -top-1 -left-1 md:-left-1.5 md:bottom-[90px] bottom-[5px] flex justify-evenly items-center">
               Let's Talk <FaArrowRight className="md:text-[12px]" />
-            </button>
+            </button> */}
+            <div className="flex justify-between items-center">
+              <h2 className="text-white">Tech Stack |</h2>
+             <div  className="flex justify-evenly ml-3 bg-white py-2 px-2 rounded-lg">
+             <DiJavascript1 className="text-black text-[20px] ml-[6px]"/>
+             <DiHtml5 className="text-black text-[20px] ml-[6px]"/>
+             <DiReact className="text-black text-[20px] ml-[6px]"/>
+             <DiCss3 className="text-black text-[20px] ml-[6px]"/>
+             <SiTailwindcss className="text-black text-[20px] ml-[7px]"/>
+             </div>
+            </div>
 
-            <a href="#"className="text-[10px] md:text-[18px] ml-[35px] text-white border-b-[1px] border-white font-poppins">
+            <a href="#portifolio"className="text-[10px] md:text-[18px] text-white border-b-[1px] border-white font-poppins">
               See Portifolio
             </a>
           </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const InSight = () => {
+const Footer = () => {
     return (
         <div>
-            Insight
+            Footer
         </div>
     );
 }
 
-export default InSight;
+export default Footer;

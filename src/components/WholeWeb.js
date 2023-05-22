@@ -4,7 +4,7 @@ import Hero from './Hero';
 import MySkills from './MySkills';
 import MyProjects from './MyProjects';
 import { AwardSwiperComp } from './Swiper';
-import InSight from './InSight';
+import Footer from './Footer';
 
 const WholeWeb = () => {
     return (
@@ -14,7 +14,7 @@ const WholeWeb = () => {
             <AwardSwiperComp/>
             <MySkills/>
             <MyProjects/>
-            <InSight/>
+            <Footer/>
         </div>
     );
 }
