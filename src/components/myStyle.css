@@ -8,12 +8,20 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-.semi-circle-zIndex {
-  z-index: -1;
+.text-gradient2 {
+  background: linear-gradient(to left, #0dccf2, #AA00FF, #ff0090 );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.fontstyle {
-  font-family: "Poppins", "monospace";
+.text-gradient3 {
+  background: linear-gradient(to left, #0dccf2, #AA00FF);
+  background-clip: icon;
+  -webkit-text-fill-color: transparent;
+}
+
+.semi-circle-zIndex {
+  z-index: -1;
 }
 
 .border {

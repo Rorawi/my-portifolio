@@ -30,8 +30,8 @@ const Hero = () => {
             <button className="text-[12px] md:text-[18px] font-poppins h-[28px] w-[87px] md:h-[56px] md:w-[174px] bg-white absolute md:-top-1.5 -top-1 -left-1 md:-left-1.5 md:bottom-[90px] bottom-[5px] flex justify-evenly items-center">
               Let's Talk <FaArrowRight className="md:text-[12px]" />
             </button> */}
-            <div className="flex justify-between items-center">
-              <h2 className="text-white">Tech Stack |</h2>
+            <div className="md:flex justify-between items-center">
+              <h2 className="text-white flex-none">Tech Stack |</h2>
              <div  className="flex justify-evenly ml-3 bg-white py-2 px-2 rounded-lg">
              <DiJavascript1 className="text-black text-[20px] ml-[6px]"/>
              <DiHtml5 className="text-black text-[20px] ml-[6px]"/>
