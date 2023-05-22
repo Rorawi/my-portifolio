@@ -38,10 +38,10 @@ const setToggle =()=> {
      )}
 
       <div className="md:flex-row flex justify-evenly items-center flex-col md:bg-transparent bg-white py-[35px] pl-[10px] h-[40vh] bottom-[200px] md:bottom-0 rounded-xl -left-[8px] z-10 fixed md:static shadow-md">
-        <FaInstagram className="mx-2.5 md:mb-0 mb-[6px] md:text-white"/>
-        <FaLinkedin className="mx-2.5 md:mb-0 mb-[6px]  md:text-white"/>
-        <FaGithub className="mx-2.5 md:mb-0 mb-[6px]  md:text-white"/>
-        <SiGmail className="mx-2.5 md:mb-0 mb-[10px]  md:text-white"/>
+        <FaInstagram className="mx-2.5 text-[17px] md:mb-0 mb-[6px] md:text-white"/>
+        <FaLinkedin className="mx-2.5 text-[17px] md:mb-0 mb-[6px]  md:text-white"/>
+        <FaGithub className="mx-2.5 text-[17px] md:mb-0 mb-[6px]  md:text-white"/>
+        <SiGmail className="mx-2.5 text-[17px] md:mb-0 mb-[5px]  md:text-white"/>
       </div>
     </header>
   );
