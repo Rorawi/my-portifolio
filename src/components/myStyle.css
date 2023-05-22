@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #0dccf2, #AA00FF);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.semi-circle-zIndex {
+  z-index: -1;
+}
+
+.fontstyle {
+  font-family: "Poppins", "monospace";
+}
+
+.border {
+  /* border: 25px solid linear-gradient(to right, #0dccf2, #AA00FF); */
+  border: 5px solid #00b3ff;
+  -webkit-border-fill-color: transparent;
+
+}
