@@ -12,7 +12,7 @@ const MySkills = () => {
         is My Passion
       </h2>
 
-      <div className="md:flex md:justify-evenly justify-center md:items-start items-center my-[70px] mx-[20px] ml-[55px]">
+      <div className="md:flex md:justify-evenly justify-center md:items-start items-center my-[70px] mx-[20px] ml-[45px]">
         <div className=" mb-[80px]">
          <div className="flex justify-center">
            <img src={logo} alt="" />

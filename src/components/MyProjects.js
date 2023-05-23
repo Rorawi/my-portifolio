@@ -29,7 +29,7 @@ const MyProjects = () => {
       <section className="mt-[100px]">
         <article className="md:flex md:justify-evenly mb-[150px]">
           {/* Image div */}
-          <a href="#" className="md:w-[380px] h-[300px] rounded-md overflow-hidden">
+          <a href="https://wi-care.netlify.app/" className="md:w-[380px] h-[300px] rounded-md overflow-hidden">
             <img src={cert} alt="" className="w-full h-full object-cover transition-all duration-300 transform hover:scale-110"
 />
           </a>
@@ -59,7 +59,7 @@ const MyProjects = () => {
                 <FaGithub className="mx-1" />
                 Code
               </a>
-              <a href="#" className="flex items-center  text-white font-poppins">
+              <a href="https://wi-care.netlify.app" className="flex items-center  text-white font-poppins">
                 <FaEye className="mx-1" />
                 Live Preview
               </a>
@@ -71,14 +71,14 @@ const MyProjects = () => {
         {/* Food Website */}
         <article className="md:flex md:justify-evenly mb-[150px] flex-row-reverse">
           {/* Image div */}
-          <a href="#" className="md:w-[380px] h-[300px] rounded-md overflow-hidden">
+          <a href="https://www.linkedin.com/posts/winifredasantewaaasante_codetrain-codetrainchallenge-reactnative-activity-7050575490369122304-w2JH?utm_source=share&utm_medium=member_desktop" className="md:w-[380px] h-[300px] rounded-md overflow-hidden">
             <img src={cert} alt="" className="w-full h-full object-contain transition-all duration-300 transform hover:scale-110"/>
           </a>
 
           {/* Description */}
           <div className="md:w-[450px]">
             <h2 className="text-white text-center font-poppins text-[20px] font-bold mb-[15px] text-gradient2">
-              Health Website
+              News-Weather App
             </h2>
             <p className="text-center font-poppins text-[15px] text-white">
               A health website provides information on various health topics,
@@ -100,7 +100,7 @@ const MyProjects = () => {
                 <FaGithub className="mx-1" />
                 Code
               </a>
-              <a href="#" className="flex items-center  text-white font-poppins">
+              <a href="https://www.linkedin.com/posts/winifredasantewaaasante_codetrain-codetrainchallenge-reactnative-activity-7050575490369122304-w2JH?utm_source=share&utm_medium=member_desktop" className="flex items-center  text-white font-poppins">
                 <FaEye className="mx-1" />
                 Live Preview
               </a>
@@ -111,7 +111,7 @@ const MyProjects = () => {
 
         <article className="md:flex md:justify-evenly mb-[150px]">
           {/* Image div */}
-          <a href="#" className="md:w-[380px] h-[100%] rounded-md overflow-hidden">
+          <a href="https://melodic-starlight-f57b44.netlify.app/" className="md:w-[380px] h-[100%] rounded-md overflow-hidden">
             <img src={cert} alt="" className="w-full h-auto transition-all duration-300 transform hover:scale-110"
 />
           </a>
@@ -141,7 +141,7 @@ const MyProjects = () => {
                 <FaGithub className="mx-1" />
                 Code
               </a>
-              <a href="#" className="flex items-center  text-white font-poppins">
+              <a href="https://melodic-starlight-f57b44.netlify.app/" className="flex items-center  text-white font-poppins">
                 <FaEye className="mx-1" />
                 Live Preview
               </a>
