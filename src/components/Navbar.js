@@ -25,7 +25,7 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <a href="#" className="mx-2.5 font-poppins text-white">
+          <a href="#portifolio" className="mx-2.5 font-poppins text-white">
             Portifolio
           </a>
         </div>

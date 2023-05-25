@@ -12,8 +12,8 @@ const MySkills = () => {
         is My Passion
       </h2>
 
-      <div className="md:flex md:justify-evenly justify-center md:items-start items-center my-[70px] mx-[20px] ml-[45px]">
-        <div className=" mb-[80px]">
+      <div className="flex flex-wrap md:flex md:justify-evenly md:items-start items-center my-[70px]">
+        <div className=" mb-[80px] text-center">
          <div className="flex justify-center">
            <img src={logo} alt="" />
          </div>
@@ -28,14 +28,14 @@ const MySkills = () => {
           
         </div>
 
-        <div className=" mb-[80px]">
+        <div className=" mb-[80px] text-center">
          <div className="flex justify-center">
            <img src={logo2} alt="" />
          </div>
 
           <h3 className="text-[24px] md:text-center font-bold font-poppins">What I work with</h3>
           <p className="text-[18px] md:text-center text-[#797979] font-poppins font-normal w-[357px] my-[12px]">
-            Faster, better products that your users love. Here's all the
+            Work with efficient tools for good user experience. Here's all the
             tools I use:
           </p>
           
@@ -46,7 +46,7 @@ const MySkills = () => {
           
         </div>
 
-        <div className=" mb-[80px]">
+        <div className=" mb-[80px] text-center">
          <div className="flex justify-center">
            <img src={logo3} alt="" />
          </div>

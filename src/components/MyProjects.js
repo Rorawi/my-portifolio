@@ -1,7 +1,7 @@
 import React from "react";
 import hungryImg from "../components/images/hungryimg.png"
 import cert from "../components/images/cert2.png";
-import { DiCss3, DiJavascript1, DiReact } from "react-icons/di";
+import { DiBootstrap, DiCss3, DiJavascript1, DiReact } from "react-icons/di";
 import { FaGithub,FaEye } from "react-icons/fa";
 import "./myStyle.css";
 
@@ -41,11 +41,7 @@ const MyProjects = () => {
             </h2>
             <p className="text-center font-poppins text-[15px] text-white">
               A health website provides information on various health topics,
-              including medical conditions, wellness tips, nutrition, and
-              fitness. It aims to educate and empower individuals to make
-              informed decisions about their health. Users can access articles,
-              videos, and interactive tools, and find healthcare providers and
-              resources for better well-being.
+              including medical conditions and fitness. It aims to allow doctors login to a database for clients data.
             </p>
 
             <div className="flex justify-evenly mt-5">
@@ -81,18 +77,14 @@ const MyProjects = () => {
               News-Weather App
             </h2>
             <p className="text-center font-poppins text-[15px] text-white">
-              A health website provides information on various health topics,
-              including medical conditions, wellness tips, nutrition, and
-              fitness. It aims to educate and empower individuals to make
-              informed decisions about their health. Users can access articles,
-              videos, and interactive tools, and find healthcare providers and
-              resources for better well-being.
+              A news weather app that contains information of your weather and crops you can plant according to your location.
+              It also has a feature that gives you saftey precautions on the various weather conditions.
             </p>
 
             <div className="flex justify-evenly mt-5">
               <DiReact className="text-white w-[30px] h-[30px] rounded-full text-[35px] text-gradient3" />
               <DiCss3 className="text-white w-[30px] h-[30px] rounded-full text-[35px] text-gradient3" />
-              <DiJavascript1 className="text-white w-[30px] h-[30px] rounded-full text-[35px] text-gradient3" />
+              {/* <DiJavascript1 className="text-white w-[30px] h-[30px] rounded-full text-[35px] text-gradient3" /> */}
             </div>
 
             <div className="flex justify-evenly mt-5">
@@ -119,19 +111,14 @@ const MyProjects = () => {
           {/* Description */}
           <div className="md:w-[450px]">
             <h2 className="text-white text-center font-poppins text-[20px] font-bold mb-[15px] text-gradient2">
-              Health Website
+              Food Website
             </h2>
             <p className="text-center font-poppins text-[15px] text-white">
-              A health website provides information on various health topics,
-              including medical conditions, wellness tips, nutrition, and
-              fitness. It aims to educate and empower individuals to make
-              informed decisions about their health. Users can access articles,
-              videos, and interactive tools, and find healthcare providers and
-              resources for better well-being.
+              A food website educating you on the nutrition value and displays a portion more like an e-commerce website to purchase your desired desert.
             </p>
 
             <div className="flex justify-evenly mt-5">
-              <DiReact className="text-white w-[30px] h-[30px] rounded-full text-[35px] text-gradient3" />
+              <DiBootstrap className="text-white w-[30px] h-[30px] rounded-full text-[35px] text-gradient3" />
               <DiCss3 className="text-white w-[30px] h-[30px] rounded-full text-[35px] text-gradient3" />
               <DiJavascript1 className="text-white w-[30px] h-[30px] rounded-full text-[35px] text-gradient3" />
             </div>
