@@ -30,14 +30,8 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <a href="#" className="mx-2.5 font-poppins text-white">
-            Blog
-          </a>
-        </div>
-
-        <div>
-          <a href="#" className="mx-2.5 font-poppins text-white">
-            Clients
+          <a href="#footer" className="mx-2.5 font-poppins text-white">
+            Contact
           </a>
         </div>
         {/* //Menu nav here classname md:hidden */}

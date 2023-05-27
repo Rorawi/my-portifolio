@@ -4,7 +4,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaMailBulk } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 const Footer = () => {
   return (
-    <div className="my-[100px] px-[50px]">
+    <div className="my-[100px] px-[50px]" id="footer">
       <div className="md:flex justify-between items-center">
         <p className="text-[40px] md:text-7xl font-poppins font-bold text-black md:max-w-2xl text-left">
           Let's
@@ -40,7 +40,7 @@ const Footer = () => {
           </p>
         </div>
         {/* Work enquiries */}
-        <div>
+        <div className="mt-[20px] md:mt-0">
           <h2 className="font-bold font-poppins">Work enquiries</h2>
           <p className="font-poppins text-[14px]">
             Interested in working with me?
@@ -53,7 +53,7 @@ const Footer = () => {
           </p>
         </div>
         {/* Address */}
-        <div>
+        <div className="mt-[20px] md:mt-0">
           <h2 className="font-bold font-poppins">My Address</h2>
           <p className="font-poppins text-[14px]">GA-0000-000,Sarabande St.</p>
           <p className="font-poppins text-[14px]">Ghana</p>

@@ -1,6 +1,8 @@
 import React from "react";
 import hungryImg from "../components/images/hungryimg.png"
 import cert from "../components/images/cert2.png";
+import health from "../components/images/health.png";
+import news from "../components/images/news-agric.png";
 import { DiBootstrap, DiCss3, DiJavascript1, DiReact } from "react-icons/di";
 import { FaGithub,FaEye } from "react-icons/fa";
 import "./myStyle.css";
@@ -30,7 +32,7 @@ const MyProjects = () => {
         <article className="md:flex md:justify-evenly mb-[150px]">
           {/* Image div */}
           <a href="https://wi-care.netlify.app/" className="md:w-[380px] h-[300px] rounded-md overflow-hidden">
-            <img src={cert} alt="" className="w-full h-full object-cover transition-all duration-300 transform hover:scale-110"
+            <img src={health} alt="" className="w-full h-full object-cover transition-all duration-300 transform hover:scale-110"
 />
           </a>
 
@@ -68,7 +70,7 @@ const MyProjects = () => {
         <article className="md:flex md:justify-evenly mb-[150px] flex-row-reverse">
           {/* Image div */}
           <a href="https://www.linkedin.com/posts/winifredasantewaaasante_codetrain-codetrainchallenge-reactnative-activity-7050575490369122304-w2JH?utm_source=share&utm_medium=member_desktop" className="md:w-[380px] h-[300px] rounded-md overflow-hidden">
-            <img src={cert} alt="" className="w-full h-full object-contain transition-all duration-300 transform hover:scale-110"/>
+            <img src={news} alt="" className="w-full h-full object-contain transition-all duration-300 transform hover:scale-110"/>
           </a>
 
           {/* Description */}
@@ -104,7 +106,7 @@ const MyProjects = () => {
         <article className="md:flex md:justify-evenly mb-[150px]">
           {/* Image div */}
           <a href="https://melodic-starlight-f57b44.netlify.app/" className="md:w-[380px] h-[100%] rounded-md overflow-hidden">
-            <img src={cert} alt="" className="w-full h-auto transition-all duration-300 transform hover:scale-110"
+            <img src={hungryImg} alt="" className="w-full h-auto transition-all duration-300 transform hover:scale-110"
 />
           </a>
 

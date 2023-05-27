@@ -12,7 +12,7 @@ const MySkills = () => {
         is My Passion
       </h2>
 
-      <div className="flex flex-wrap md:flex md:justify-evenly md:items-start items-center my-[70px]">
+      <div className="flex flex-wrap justify-center md:flex md:justify-evenly md:items-start items-center my-[70px]">
         <div className=" mb-[80px] text-center">
          <div className="flex justify-center">
            <img src={logo} alt="" />

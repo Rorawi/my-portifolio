@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import MySkills from "./MySkills";
 import profile from "../components/images/profile.jpg";
+import cv from "../components/images/WinifredAsanteResume.pdf"
 import "./myStyle.css";
 import { FaArrowRight } from "react-icons/fa";
 import {DiJavascript1,DiHtml5,DiCss3,DiReact} from "react-icons/di"
@@ -41,8 +42,8 @@ const Hero = () => {
              </div>
             </div>
 
-            <a href="#portifolio"className="text-[10px] md:text-[18px] text-white border-b-[1px] border-white font-poppins">
-              See Portifolio
+            <a  href={cv} download className="text-[10px] md:text-[18px] text-white border-b-[1px] border-white font-poppins">
+              Download Cv
             </a>
           </div>
         </div>
