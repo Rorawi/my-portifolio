@@ -119,10 +119,10 @@ export const AwardSwiperComp = () => {
         onSlideChange={() => console.log("slide change")}
         className="h-[45vh]"
       >
-        <SwiperSlide className="bg-[#DFDFDF] w-[282px] overflow-hidden">
+        {/* <SwiperSlide className="bg-[#DFDFDF] w-[282px] overflow-hidden"> */}
         {/* <img src={cert4} alt="" /> */}
         {/* <IoLogoJavascript/> */}
-        </SwiperSlide>
+        {/* </SwiperSlide> */}
         <SwiperSlide className="bg-[#DFDFDF] w-[282px] h-[398px] overflow-hidden">
           <img src={cert1} alt="" />
         </SwiperSlide>

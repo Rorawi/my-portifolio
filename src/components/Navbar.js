@@ -39,9 +39,9 @@ const Navbar = () => {
       {isTrue && <MobileNav />}
 
       <div className="md:flex-row flex justify-evenly items-center flex-col md:bg-transparent bg-white py-[35px] pl-[10px] h-[40vh] md:h-0 bottom-[200px] md:bottom-0 rounded-xl -left-[14px] z-10 fixed md:static md:shadow-none shadow-md">
-        <a href="">
+        {/* <a href="">
           <FaInstagram className="mx-2.5 text-[17px] md:mb-0 mb-[6px] md:text-white" />
-        </a>
+        </a> */}
         <a href="https://www.linkedin.com/in/winifredasantewaaasante">
           <FaLinkedin className="mx-2.5 text-[17px] md:mb-0 mb-[6px]  md:text-white" />
         </a>

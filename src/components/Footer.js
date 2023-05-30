@@ -55,7 +55,7 @@ const Footer = () => {
         {/* Address */}
         <div className="mt-[20px] md:mt-0">
           <h2 className="font-bold font-poppins">My Address</h2>
-          <p className="font-poppins text-[14px]">GA-0000-000,Sarabande St.</p>
+          <p className="font-poppins text-[14px]">GA-126-7715,Sarabande St.</p>
           <p className="font-poppins text-[14px]">Ghana</p>
         </div>
         
@@ -63,14 +63,17 @@ const Footer = () => {
         <div>
           <h2 className="font-bold font-poppins text-center">Follow Me</h2>
           <div className=" flex justify-center items-center">
-            <a href="">
+            {/* <a href="">
               <FaInstagram className="mx-2.5 text-[17px] mb-[6px]" />
-            </a>
-            <a href="">
+            </a> */}
+            <a href="https://www.linkedin.com/in/winifredasantewaaasante
+">
               <FaLinkedin className="mx-2.5 text-[17px] mb-[6px] " />
             </a>
-            <FaGithub className="mx-2.5 text-[17px] mb-[6px] " />
-            <SiGmail className="mx-2.5 text-[17px] mb-[5px] " />
+<a href="https://github.com/Rorawi">
+<FaGithub className="mx-2.5 text-[17px] mb-[6px] " />
+</a>
+            {/* <SiGmail className="mx-2.5 text-[17px] mb-[5px] " /> */}
           </div>
         </div>
       </section>

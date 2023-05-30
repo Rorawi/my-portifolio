@@ -138,15 +138,15 @@ const MyProjects = () => {
           </div>
         </article>
 
-        <article className="md:flex md:justify-evenly mb-[150px] flex-row-reverse">
+        {/* <article className="md:flex md:justify-evenly mb-[150px] flex-row-reverse"> */}
           {/* Image div */}
-          <a href="#" className="md:w-[380px] h-[100%] rounded-md overflow-hidden">
+          {/* <a href="#" className="md:w-[380px] h-[100%] rounded-md overflow-hidden">
             <img src={cert} alt="" className="w-full h-auto transition-all duration-300 transform hover:scale-110"
 />
-          </a>
+          </a> */}
 
           {/* Description */}
-          <div className="md:w-[450px]">
+          {/* <div className="md:w-[450px]">
             <h2 className="text-white text-center font-poppins text-[20px] font-bold mb-[15px] text-gradient2">
               Health Website
             </h2>
@@ -176,7 +176,7 @@ const MyProjects = () => {
               </a>
             </div>
           </div>
-        </article>
+        </article> */}
       </section>
     </div>
   );
