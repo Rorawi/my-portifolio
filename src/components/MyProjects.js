@@ -22,8 +22,8 @@ const MyProjects = () => {
 
         <div className="relative">
           <div className="h-[56px] w-[174px] shadow-lg bg-gradient-to-bl from-[#AA00FF] to-[#0DCCF2] "></div>
-          <a href="#" className="h-[56px] w-[174px] bg-[#181818] flex justify-center items-center absolute -top-[4px] -left-[4px] text-white font-poppins">
-            See More
+          <a className="h-[56px] w-[174px] bg-[#181818] flex justify-center items-center absolute -top-[4px] -left-[4px] text-white font-poppins">
+            My Works
           </a>
         </div>
       </div>
