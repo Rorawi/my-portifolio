@@ -176,19 +176,19 @@ export const LogoSwiperComp = () => {
         onSwiper={(swiper) => console.log(swiper)}
         effect="fade"
         onSlideChange={() => console.log("slide change")}
-        className="h-[45vh]"
+        className="h-[45vh] rounded-lg"
       >
-        <SwiperSlide className="bg-[#DFDFDF] w-[282px] overflow-hidden">
+        <SwiperSlide className="bg-[#DFDFDF] overflow-hidden rounded-md">
         {/* <img src={cert4} alt="" /> */}
         <SiJavascript/>
         </SwiperSlide>
-        <SwiperSlide className="bg-[#DFDFDF] w-[282px] h-[398px] overflow-hidden">
+        <SwiperSlide className="bg-[#DFDFDF] overflow-hidden rounded-md">
           <img src={cert1} alt="" />
         </SwiperSlide>
-        <SwiperSlide className="bg-[#DFDFDF] w-[282px] h-[398px] overflow-hidden">
+        <SwiperSlide className="bg-[#DFDFDF] overflow-hidden rounded-md">
         <img src={cert2} alt="" />
         </SwiperSlide>
-        <SwiperSlide className="bg-[#DFDFDF] w-[282px] h-[398px] overflow-hidden">
+        <SwiperSlide className="bg-[#DFDFDF] overflow-hidden rounded-md">
         <img src={cert3} alt="" />
         </SwiperSlide>
         {/* edit swiper */}
